@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+
+namespace cbc.cbcchess
+{
+	public class GameConstants
+	{
+		public static int ROW_CELL_COUNT = 8;
+
+		// sound (ufxr)
+		public static string SOUND_POSSIBLE_START_HIGHLIGHTED = "0,0.1596,0.0867,0.0018,0.0829,0.0474,,0.6187,0.7901,0.2082,0.0858,-0.0763,0.7296,-0.5986,0.7123,0.6598,0.0018,0.2769,0.084,,0.0058,0.0427,,0.08";
+		public static string SOUND_START_SELECTED = "2,0.0003,0.3753,0.1066,0.2829,0.5163,,0.0006,-0.5268,-0.0471,,-0.8176,0.3936,0.4266,0.0003,,0.063,-0.0252,0.062,0.1034,-0.9996,0.9651,,0.5";
+		public static string SOUND_DESTINATION_SELECTED = "2,0.2199,0.0748,0.1367,0.4249,0.4943,,-0.0292,0.0289,0.0151,0.7202,0.762,0.4874,0.6898,0.1759,0.3484,0.0545,0.8986,0.8174,0.0257,0.1951,,,0.04";
+		public static string SOUND_PIECE_DESTROY = "3,0.0023,0.01,0.1534,0.9006,0.5575,,0.3867,0.1442,,0.9576,0.3601,-0.22,0.0402,0.0018,,-0.0043,-0.542,0.8477,-0.0032,-0.4753,0.9877,-0.345,0.1";
+	}
+}
